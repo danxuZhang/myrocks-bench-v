@@ -12,7 +12,7 @@ Alternatively, a docker container has been provided. To build the docker contain
 
 ``` bash
 # build MyRocks docker container
-docker build -t myrocks:latest -f ./Dockerfile.myrocks .
+docker build -t myrocks:latest -f ./Dockerfile .
 # run MyRocks docker container with port-forwarding
 docker run -d -p 3306:3306 myrocks:latest
 # connect database with mysql client (password can be configured in Dockerfile argument)
